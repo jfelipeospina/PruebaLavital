@@ -8,4 +8,4 @@ Recomendaciones para desplegar y probar la solución:
 
 -Se debe cambiar la cadena de conexión "data source" en los archivos Web.config y App.config por la instancia donde se va a restaurar la base de datos.
 
--Se adjunta documento en word (Evidencias) donde se evidencia de los resultados finales
+-Se adjunta documento en word (Documentación prueba lavital.docx) donde se evidencia de los resultados finales
