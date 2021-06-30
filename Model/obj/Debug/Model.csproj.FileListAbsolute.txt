@@ -1,0 +1,88 @@
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\7- Vistas, Controladores\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\7- Vistas, Controladores\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\7- Vistas, Controladores\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\7- Vistas, Controladores\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\7- Vistas, Controladores\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\8- Enviando parámetros a la vista desde el controlador y viceversa\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\8- Enviando parámetros a la vista desde el controlador y viceversa\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\8- Enviando parámetros a la vista desde el controlador y viceversa\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\8- Enviando parámetros a la vista desde el controlador y viceversa\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\9- Creando nuestro modelo de la DB Test\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\10- Formulario y validacion\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\12- Enviando el formulario mediante AJAX\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\13- Adjuntando cursos\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\14- Agregando adjuntos a un alumno\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mis Cursos\ASP.NET MVC Creando un portafolio profesional\15- AnexGRID\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\Helper.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\Helper.pdb
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll.config
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll.config
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\Model.dll
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\Model.pdb
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.dll
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\Helper.dll
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\Helper.pdb
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.xml
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\obj\Debug\Model.csproj.CopyComplete
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\obj\Debug\Model.dll
+D:\5c6ea365aee95986785322\MiPrimerProyectoMVC\Model\obj\Debug\Model.pdb

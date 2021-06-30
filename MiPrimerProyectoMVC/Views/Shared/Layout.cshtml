@@ -1,0 +1,46 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mi primer proyecto MVC - @ViewBag.Title</title>
+
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+
+    <script src="~/assets/js/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="jumbotron">
+            Mi primer proyecto MVC
+        </h1>
+
+        @if (SessionHelper.ExistUserInSession())
+        {
+            <div class="row">
+                <div class="col-xs-12 text-center well">
+                    Bienvenido, <b>@FrontUser.Get().Nombre</b> [<a href="~/home/salir">Finalizar sesión</a>]
+                </div>
+            </div>
+        }
+
+        @RenderBody()
+
+    </div>
+
+    <script src="~/assets/js/bootstrap.min.js"></script>
+
+    <script src="~/assets/js/jquery.validate.min.js"></script>
+    <script src="~/assets/js/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/Anexsoft/AnexGRID/master/jquery.anexgrid.min.js"></script>
+
+    <script src="~/assets/js/ini.js"></script>
+    <script src="~/assets/js/jquery.form.js"></script>
+
+</body>
+</html>

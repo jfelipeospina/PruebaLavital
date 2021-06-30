@@ -1,0 +1,47 @@
+﻿@model Model.AlumnoCurso
+@{
+    List<Model.Curso> cursos = ViewBag.Cursos;
+    List<Model.AlumnoCurso> CursosElegidos = ViewBag.CursosElegidos;
+}
+
+@if (cursos.Count > 0) 
+{
+    using (Html.BeginForm("GuardarCurso", "Home", FormMethod.Post, new { id = "frm-curso" }))
+    {
+        @Html.HiddenFor(x => x.Alumno_id)
+        <div class="form-group">
+            <label>Seleccione un curso</label>
+            <select class="form-control" name="Curso_id">
+                @foreach (var c in cursos)
+                {
+                    <option value="@c.id">@c.Nombre</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Nota)
+            @Html.TextBoxFor(x => x.Nota, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Nota, null, new { @class = "label label-danger" })
+        </div>
+
+        <div class="text-right">
+            <button data-ajax="true" data-confirm="¿Esta seguro de asignar este curso al alumno?" type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+    }
+    <hr />
+}
+
+<!-- CURSOS ELEGIDOS -->
+<ul class="list-group">
+    @foreach (var c in CursosElegidos)
+    {
+        <li class="list-group-item">@c.Curso.Nombre <span class="badge pull-right">@c.Nota</span></li>
+    }
+</ul>
+
+
+<script>
+    $(document).ready(function () {
+        $.validator.unobtrusive.parse("#frm-curso");
+    })
+</script>

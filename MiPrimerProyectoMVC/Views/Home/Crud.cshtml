@@ -1,0 +1,107 @@
+﻿@model Model.Alumno
+@{
+    ViewBag.Title = (Model.id > 0 ? Model.Nombre + " " + Model.Apellido : "Nuevo registro");
+}
+
+<ol class="breadcrumb">
+    <li><a href="~/">Alumnos</a></li>
+    <li class="active">@(Model.id > 0 ? Model.Nombre + " " + Model.Apellido : "Nuevo registro")</li>
+</ol>
+
+  <!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#informacion" aria-controls="informacion" role="tab" data-toggle="tab">Información</a></li>
+
+    @if (Model.id > 0)
+    {
+        <li role="presentation"><a href="#cursos" aria-controls="cursos" role="tab" data-toggle="tab">Cursos</a></li>
+        <li role="presentation"><a href="#adjuntos" aria-controls="cursos" role="tab" data-toggle="tab">Adjuntos</a></li>
+    }
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="informacion">
+        @using (Html.BeginForm("Guardar", "Home", FormMethod.Post, new { id = "frm-alumno" }))
+        {
+            @Html.HiddenFor(x => x.id)
+
+            <div class="form-group">
+                @Html.LabelFor(x => x.Nombre)
+                @Html.TextBoxFor(x => x.Nombre, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Nombre, null, new { @class = "label label-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.Apellido)
+                @Html.TextBoxFor(x => x.Apellido, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Apellido, null, new { @class = "label label-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.Sexo)
+                <select name="Sexo" class="form-control">
+                    <option @(Model.Sexo == 1 ? "selected" : "") value="1">Hombre</option>
+                    <option @(Model.Sexo == 2 ? "selected" : "") value="2">Mujer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.FechaNacimiento)
+                @Html.TextBoxFor(x => x.FechaNacimiento, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.FechaNacimiento, null, new { @class = "label label-danger" })
+            </div>
+
+            <div class="text-right">
+                <button data-ajax="true" data-confirm="¿Esta seguro de guardar este registro?" type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+        } 
+    </div>
+    @if (Model.id > 0)
+    {
+        <div role="tabpanel" class="tab-pane" id="cursos"></div>
+        <div role="tabpanel" class="tab-pane" id="adjuntos"></div>
+    }
+</div>
+
+<script>
+    $(document).ready(function () {
+        @if (Model.id > 0) 
+        {
+            <text>
+            CargarCursos();
+            CargarAdjuntos();
+            </text>
+        }
+    })
+    function CargarCursos()
+    {
+        $("#cursos").load('@Url.Content("~/home/cursos/?Alumno_id=" + Model.id)');
+    }
+    function CargarAdjuntos() {
+        $("#adjuntos").load('@Url.Content("~/home/adjuntos/?Alumno_id=" + Model.id)');
+    }
+</script>
+<!--<script>
+    $(document).ready(function () {
+        $("#frm-alumno").submit(function () {
+            var form = $(this);
+
+            $.ajax({
+                dataType: 'JSON',
+                type: 'POST',
+                url: form.attr('action'),
+                data: form.serialize(),
+                success: function (r) {
+                    if (r.response) {
+                        window.location.href = r.href;
+                    } else {
+                        alert(r.message);
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus + ' ' + errorThrown);
+                }
+            });
+
+            return false;
+        })
+    })
+</script>-->

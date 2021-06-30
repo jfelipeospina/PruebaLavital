@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+<h2 class="page-header">
+    @if(FrontUser.TienePermiso(RolesPermisos.Alumno_Puede_Crear_Nuevo_Registro))
+    {
+        <a href="~/home/crud" class="btn btn-default pull-right">Nuevo alumno</a>
+    }
+    Alumnos
+</h2>
+
+<div id="list"></div>
+
+<script>
+    $(document).ready(function () {
+        $("#list").anexGrid({
+            columnas: [
+                { leyenda: 'Nombre', columna: 'Nombre', ordenable: true },
+                { leyenda: 'Sexo', columna: 'Sexo', style: 'width:100px;', ordenable: true },
+                { leyenda: 'Nacimiento', columna: 'FechaNacimiento', style: 'width:140px;', ordenable: true },
+                { style: 'width:100px;' },
+                { style: 'width:100px;' }
+            ],
+
+            modelo: [
+                {
+                    propiedad: 'Nombre', formato: function (tr, obj, valor) {
+                        return anexGrid_link({
+                            href: '@Url.Content("~/home/crud/")' + obj.id,
+                            contenido: valor
+                        });
+                    }
+                },
+                {
+                    propiedad: 'Sexo', formato: function (tr, obj, valor) {
+                        return valor == 1 ? "Hombre" : "Mujer";
+                    }
+                },
+                { propiedad: 'FechaNacimiento'},
+
+                // BOTONES
+                {
+                    formato: function (tr, obj, valor) {
+
+                        @if (FrontUser.TienePermiso(RolesPermisos.Alumno_Puede_Visualizar_Un_Alumno))
+                        {
+                            <text>
+                                return anexGrid_link({
+                                    href: '@Url.Content("~/home/ver/")' + obj.id,
+                                    contenido: 'Visualizar',
+                                    class: 'btn btn-default btn-xs'
+                                });
+                            </text>
+                        }
+                        else
+                        {
+                            <text> return ""; </text>
+                        }
+                    },
+                },
+                {
+                    formato: function (tr, obj, valor) {
+
+                        @if (FrontUser.TienePermiso(RolesPermisos.Alumno_Puede_Eliminar_Registro))
+                        {
+                            <text>
+                                return anexGrid_link({
+                                    href: '@Url.Content("~/home/eliminar/")' + obj.id,
+                                    contenido: 'Eliminar',
+                                    class: 'btn btn-danger btn-xs',
+                                    attr: [
+                                        'onclick="return confirm(\'¿Esta seguro de eliminar este registro?\')"'
+                                    ]
+                                });
+                            </text>
+                        }
+                        else
+                        {
+                            <text> return ""; </text>
+                        }
+                    },
+                }
+            ],
+
+            url: '@Url.Content("~/home/CargarAlumnos")',
+            paginable: true,
+            limite: [20, 60, 100],
+            columna: 'id',
+            columna_orden: 'DESC'
+        });
+    })
+</script>
